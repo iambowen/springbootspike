@@ -1,5 +1,5 @@
 #!/bin/bash
-docker build . -t springspike
+docker build -t springspike .
 
 docker run --rm -it springspike ash -c '/work/gradlew build'
 
