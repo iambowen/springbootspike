@@ -1,4 +1,4 @@
-FROM docker pull limaofeng/gradle-alpine
+FROM limaofeng/gradle-alpine
 
 RUN apk add --no-cache bash
 
