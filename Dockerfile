@@ -1,5 +1,5 @@
 FROM openjdk:alpine
 
-ADD . /work
+RUN apk add --no-cache bash
 
-CMD ["ash", "-c"]
+ADD . /work
